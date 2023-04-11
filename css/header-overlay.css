@@ -1,0 +1,150 @@
+/* модифікатори та доповнення */
+.container--padding-null {
+    padding: 0;
+}
+
+#wrap-eclipse {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* --- */
+
+
+/* header-overlay */
+.overlay {
+    height: 100vh;
+    min-width: 240px;
+    max-width: 350px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    overflow-y: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay-head {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.overlay-head__row {
+    display: flex;
+    align-items: center;
+}
+
+.overlay-body {
+}
+
+.overlay-body__menu {
+    width: 100%;
+    
+    padding-bottom: 60px;
+}
+
+.overlay-body__list {
+    margin-bottom: 10px;
+}
+
+.menu-overlay__item {
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+}
+
+.overlay-body__link {
+    border-radius: 15px;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    transition: all 0.2s;
+}
+.overlay-body__link-active:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.menu-link__image {
+    display: block;
+    margin-right: 25px;
+    width: 25px;
+}
+
+.menu-link__text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    
+    margin: 5px 0;
+}
+
+.overlay__dropdown {
+    margin-left: 30px;
+}
+
+.dropdown .menu-link__image {
+    width: 20px;
+}
+
+.menu-link__arrow {
+    display: block;
+    margin-left: auto;
+    
+    margin-right: 15px;
+}
+
+.overlay__button {
+    width: 100%;
+}
+
+.overlay-button__text {
+    display: block;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 15px;
+}
+.overlay-button__text--active:hover {
+    background-color: #134275;
+}
+
+.overlay-footer {
+    margin-top: auto;
+}
+
+.note {
+    font-size: 10px;
+    line-height: 17px;
+    color: #787878;
+    font-weight: 500;
+}
+
+.overlay__note {
+    padding: 45px 0;
+    text-align: center;
+}
+
+/* dropdown ACTIVE */
+#arrow-down.anim {
+    transform: scaleY(-1);
+}
+
+#dropdown {
+    display: none;
+}
+
+#dropdown.visible {
+    display: block;
+}

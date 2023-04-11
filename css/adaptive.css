@@ -1,0 +1,263 @@
+/* adaptive - computer */
+
+@media (max-width: 1000px) {
+    .menu__item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .button__text {
+        padding: 14px 28px;
+    }
+}
+
+@media (max-width: 910px) {
+    .header__menu {
+        display: none;
+    }
+
+    .burger-button {
+        display: flex;
+    }
+}
+
+
+/* features */
+@media (max-width: 1117px) {
+    .features__row {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    .features__card:nth-child(1),
+    .features__card:nth-child(2) {
+        margin-bottom: 20px;
+    }
+}
+ 
+@media (max-width: 1025px) {
+    .features__content {
+        padding: 120px 0;
+    }
+}
+
+
+/* reviews */
+@media (max-width: 996px) {
+    .reviews__title {
+        text-align: center;
+    }
+
+    .reviews__row {
+        display: block;
+    }
+
+    .reviews-card {
+        margin: 0 auto 20px !important;
+        max-width: 550px;
+        min-height: 300px;
+    }
+}
+
+
+/* subscription */
+@media (max-width: 1066px) {
+    .subscription__content {
+        padding: 70px 0;
+    }
+
+    .subscription__form {
+        max-width: 525px;
+    }
+
+    .form__name,
+    .form__email {
+        margin-bottom: 25px;
+    }
+}
+
+
+/* footer */
+@media (max-width: 1051px) {
+    .footer__content {
+        min-height: 200px;
+    }
+
+    .footer-menu-list {
+        display: block;
+    }
+
+    .footer-menu__link {
+        line-height: 30px;
+    }
+}
+
+
+
+
+/* adaptive - mobile (768) */
+
+/* header */
+@media (max-width: 600px) {
+    .header-button__text {
+        padding: 14px 28px;
+    }
+}
+
+@media (min-width: 426px) {
+    .overlay__button {
+        display: none;
+    }
+}
+
+@media (max-width: 426px) {
+    .header__button {
+        display: none;
+    }
+
+    .overlay__button {
+        display: block;
+    }
+}
+
+
+/* intro */
+@media (max-width: 590px) {
+    .intro__title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 543px) {
+    .intro__subtitle {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 426px) {
+    .intro__content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro__title {
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 400px) {
+    .intro__content {
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+}
+
+
+
+/* features */
+@media (max-width: 769px) {
+    .features__content {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .features__row {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .features__card:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* reviews */
+@media (max-width: 769px) {
+    .reviews__content {
+        padding: 90px 0 100px;
+    }
+}
+
+
+/* contacts */
+@media (max-width: 769px) {
+    .contacts__content {
+        padding: 70px 0 100px;
+    }
+
+    .contacts__title {
+        margin-bottom: 35px;
+    }
+
+    .contacts-column__desc {
+        max-width: 160px;
+    }
+}
+@media (max-width: 605px) {
+    .contacts__content {
+        padding: 70px 0 70px;
+    }
+
+    .contacts__title {
+        text-align: center;
+    }
+
+    .contacts__row {
+        display: block;
+    }
+
+    .contacts-column {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        width: 200px;
+    }
+
+    .contacts-column:not(:last-child) {
+        padding-bottom: 30px;
+    }
+
+    .contacts-column__title {
+        margin-bottom: 10px;
+    }
+
+    .contacts-column__desc {
+        max-width: none;
+    }
+}
+
+
+/* subscription */
+@media (max-width: 570px) {
+    .subscription__form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__name,
+    .form__email,
+    .form__phone {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* footer */
+@media (max-width: 681px) {
+    .footer__content {
+        padding: 30px 0;
+    }
+
+    .footer__row-left {
+        margin-bottom: 15px;
+    }
+
+    .footer__row-left,
+    .footer__row-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+}

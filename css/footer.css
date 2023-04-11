@@ -1,0 +1,50 @@
+/* footer */
+.footer__content {
+    min-height: 125px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__row-left,
+.footer__row-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    margin-right: 25px;
+}
+
+.footer__note {
+}
+
+.footer__menu {
+    padding-right: 20px;
+}
+
+.menu__link--color--gray {
+    color: #787878;
+}
+
+.footer__contact-socials {
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-socials__link {
+    margin-left: 25px;
+}
+/* --- */
+
+/* HOVER */
+
+@media (min-width: 769px) {
+    .footer-menu__link--active:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+}
